@@ -16,8 +16,9 @@ namespace Entityes.exercicio
 
         public double Payment(double additional)
         {
-            additional+= ValuePerHours * Hours;
-            return additional;
+            additional= ValuePerHours * Hours
+                ;
+            return additional * 1.1;
         }
 
     }

@@ -7,7 +7,8 @@ namespace exercicio
     {
         static void Main(string[] args)
         {
-           
+            Employee acess = new Employee("Rosinairo", 48, 55.0);
+            Console.WriteLine(acess);
         }
     }
 }
