@@ -23,5 +23,10 @@ namespace Entityes.exercicio
 
 
         }
+
+        public double Payment()
+        {
+            return ValuePerHours * Hours;
+        }
     }
 }

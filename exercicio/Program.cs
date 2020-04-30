@@ -1,4 +1,5 @@
 ﻿using System;
+using Entityes.exercicio;
 
 namespace exercicio
 {
@@ -6,7 +7,7 @@ namespace exercicio
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
         }
     }
 }

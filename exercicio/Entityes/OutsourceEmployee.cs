@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace exercicio.Entityes
+namespace Entityes.exercicio
 {
     class OutsourceEmployee:Employee
     {
@@ -14,6 +14,11 @@ namespace exercicio.Entityes
             Additionalchange = additionalchange;
         }
 
+        public double Payment(double additional)
+        {
+            additional+= ValuePerHours * Hours;
+            return additional;
+        }
 
     }
 }
