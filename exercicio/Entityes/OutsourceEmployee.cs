@@ -13,13 +13,12 @@ namespace Entityes.exercicio
         {
             Additionalchange = additionalchange;
         }
-
-        public double Payment(double additional)
+        public override double Payment()
         {
-            additional= ValuePerHours * Hours
-                ;
-            return additional * 1.1;
+            return base.Payment()+ Additionalchange*1.1;
+
         }
+      
 
     }
 }
